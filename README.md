@@ -12,7 +12,7 @@ En souhaitant améliorer les résultats des requêtes ou affiner la recherche d'
 L'algorithme de recherche de relations peut être amélioré, car certaines relations ne sont pas comparées avec les bon tokens ou la relation diffère des tokens de la phrase ce qui amène à des erreurs. D'autres approches algorithmiques différent de la distance de Levenshtein peuvent permettre de résoudre ce problème. 
  
   # Utilisation
- - Librairies nécéssaires :
+ - Librairies nécessaires :
 
 math  
 re  
@@ -21,7 +21,8 @@ spacy
 SPARQLWrapper   
 lxml  
 
-- Fichiers nécésaires  
+ - Fichiers nécessaires :
+
 relations.xml -> contiens les différentes relations possibles  
 questions.xml -> contiens les questions et les réponses (URI DBpedia) attendues.  
  
